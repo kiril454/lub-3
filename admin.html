@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <!-- Хедер -->
+    <header>
+        <div id="logo">Admin Panel</div>
+        <div id="profile">
+            <img src="images/admin.jpg" alt="Admin Avatar">
+            <div class="dropdown">
+                <a href="#">My Profile</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Основной контейнер -->
+    <div id="main-container">
+        <!-- Левое меню -->
+        <nav id="left-menu">
+            <a href="#">Dashboard</a>
+            <a href="#">Posts</a>
+            <a href="#">Users</a>
+            <a href="#">Settings</a>
+        </nav>
+        
+        <!-- Контент -->
+        <main id="content">
+            <h2>Статистика посещаемости</h2>
+            <div class="horizontal-bar-chart">
+                <div class="chart-row">
+                    <span class="value">Пн</span>
+                    <div class="bar"><span style="width: 80%;">80%</span></div>
+                </div>
+                <div class="chart-row">
+                    <span class="value">Вт</span>
+                    <div class="bar"><span style="width: 60%;">60%</span></div>
+                </div>
+                <div class="chart-row">
+                    <span class="value">Ср</span>
+                    <div class="bar"><span style="width: 90%;">90%</span></div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
